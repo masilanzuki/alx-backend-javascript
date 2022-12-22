@@ -6,27 +6,27 @@ export default class Car {
   }
 
   get brand() {
-    return this._brand;
+    return this.brand;
   }
 
   set brand(brand) {
-    this._brand = brand;
+    this.brand = brand;
   }
 
   get motor() {
-    return this._motor;
+    return this.motor;
   }
 
   set motor(motor) {
-    this._motor = motor;
+    this.motor = motor;
   }
 
   get color() {
-    return this._color;
+    return this.color;
   }
 
   set color(color) {
-    this._color = color;
+    this.color = color;
   }
 
   static get [Symbol.species]() {

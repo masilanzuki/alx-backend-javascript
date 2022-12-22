@@ -5,19 +5,19 @@ export default class Pricing {
   }
 
   get amount() {
-    return this._amount;
+    return this.amount;
   }
 
   set amount(amount) {
-    this._amount = amount;
+    this.amount = amount;
   }
 
   get currency() {
-    return this._currency;
+    return this.currency;
   }
 
   set currency(currency) {
-    this._currency = currency;
+    this.currency = currency;
   }
 
   displayFullPrice() {
